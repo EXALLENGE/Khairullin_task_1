@@ -1,0 +1,8 @@
+def guess_number(a):
+    if a == 42:
+        return "Вы угадали"
+    else:
+        return "Попробуйте еще"
+
+
+print(guess_number(42))
